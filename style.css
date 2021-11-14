@@ -1,0 +1,129 @@
+:root {
+  --yellow: #f6d70e;
+  --black: #171715;
+  --gris: #d5d5d5;
+}
+.black {
+  color: #171715;
+}
+.white {
+  background-color: white;
+}
+
+body,
+html {
+  font-family: "Segoe UI";
+}
+* {
+  font-family: "Segoe UI" !important;
+}
+
+#sidebar {
+  background-color: var(--black);
+}
+.header {
+  background-color: var(--yellow);
+}
+.flat {
+  box-shadow: none !important;
+}
+main {
+  background: white;
+  padding: 1rem;
+}
+.datatable-big-title {
+  font-weight: 900;
+  padding: 1rem;
+  padding-bottom: 0rem;
+}
+.btn-ajouter {
+  background: #fff !important;
+  box-shadow: none !important;
+}
+.logo-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff !important;
+  margin-bottom: -1.4rem;
+  border-bottom: solid 1px #8080805e;
+  padding-bottom: .4rem;
+}
+.logo {
+  font-weight: 600;
+  font-size: 22px;
+}
+.sidebar-icon {
+  width: 18px;
+  margin-right: 8px;
+  fill: #000;
+}
+
+/*============== [Side bar ] =============== */
+* {
+  outline: none !important;
+}
+input {
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}
+/*========= [SCROLL BAR] ============= */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b0b1b5;
+  border-radius: 22px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/*========= [/SCROLL BAR] ============= */
+
+.top-bar-icon{
+  width: 22px;
+  height: 22px;
+}
+/*================= ========*/
+
+.font-black{
+  color : var(--black) !important;
+}
+.brand{
+  background-color: #b0b1b5 !important;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+}
+.brand .logo{
+  fill : #475569;
+  color : #475569;
+}
+.list-link{
+  background-color: #b0b1b5;
+}
+.bg-black{
+  background-color: #000 !important;
+}
+::selection {
+  background-color: #f6d70e;
+}
+.breadcrumb{
+  width: 100%;
+  padding: .5rem;
+  border-bottom: solid 1px #d5d6db;
+}
+.form{
+  padding : 2rem !important;
+}
